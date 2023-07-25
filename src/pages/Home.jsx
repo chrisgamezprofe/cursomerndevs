@@ -8,11 +8,13 @@ import icon03 from "./../assets/images/icon03.png";
 import featureImg from "./../assets/images/feature-img.png";
 import videoIcon from "./../assets/images/video-icon.png";
 import avatarIcon from "./../assets/images/avatar-icon.png";
+import faqImg from "./../assets/images/faq-img.png";
 import { Link } from "react-router-dom";
 import { BsArrowRight } from "react-icons/bs";
 import About from "../components/About/About";
 import ServiceList from "../components/Services/ServiceList";
 import DevList from "../components/Devs/DevList";
+import FaqsList from "../components/Faqs/FaqsList";
 
 const Home = () => {
   
@@ -258,6 +260,23 @@ const Home = () => {
           <DevList/>
         </div>
       </section>
+
+       {/* ======== faq section ==========*/}
+
+       <section>
+        <div className="container">
+          <div className="flex justify-between gap-[50px] lg:gap-0">
+            <div className="w-1/2 hidden md:block">
+            <img src={faqImg} alt="" />
+            </div>
+
+            <div className="w-fill md:w-1/2">
+              <h2 className="heading">Preguntas más frecuentes</h2>
+              <FaqsList />
+            </div>
+          </div>
+        </div>
+       </section>
     </>
   );
 };

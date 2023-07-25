@@ -1,26 +1,26 @@
 export const faqs = [
   {
-    question: "What is your medical care?",
+    question: "¿Cuál es su framework favorito?",
+    content:
+      "One Company was founded on a better model of care one designed around patients needs that provides a higher level of quality and service affordably. We do this through innovative design, excellent customer service, and the efficient use of technology.",
+  },
+  {
+    question: "Cómo contratar devs por hora?",
     content:
       "One Medical was founded on a better model of care one designed around patients needs that provides a higher level of quality and service affordably. We do this through innovative design, excellent customer service, and the efficient use of technology.",
   },
   {
-    question: "What happens if I need to go a hospital?",
+    question: "Qué tecnologías debe saber?",
     content:
       "One Medical was founded on a better model of care one designed around patients needs that provides a higher level of quality and service affordably. We do this through innovative design, excellent customer service, and the efficient use of technology.",
   },
   {
-    question: "What happens if I need to go a hospital?",
+    question: "Cuándo trabajar remotamente?",
     content:
       "One Medical was founded on a better model of care one designed around patients needs that provides a higher level of quality and service affordably. We do this through innovative design, excellent customer service, and the efficient use of technology.",
   },
   {
-    question: "Can I visit your medical office?",
-    content:
-      "One Medical was founded on a better model of care one designed around patients needs that provides a higher level of quality and service affordably. We do this through innovative design, excellent customer service, and the efficient use of technology.",
-  },
-  {
-    question: "Does you provide urgent care?",
+    question: "Cómo verificar conocimiento?",
     content:
       "One Medical was founded on a better model of care one designed around patients needs that provides a higher level of quality and service affordably. We do this through innovative design, excellent customer service, and the efficient use of technology.",
   },
