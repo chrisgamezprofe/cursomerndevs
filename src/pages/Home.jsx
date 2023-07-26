@@ -15,6 +15,8 @@ import About from "../components/About/About";
 import ServiceList from "../components/Services/ServiceList";
 import DevList from "../components/Devs/DevList";
 import FaqsList from "../components/Faqs/FaqsList";
+import Testimonial from "../components/Testimonial/Testimonial";
+import Footer from "../components/Footer/Footer";
 
 const Home = () => {
   
@@ -184,7 +186,7 @@ const Home = () => {
       {/* ======== services section ==========*/}
       <section>
         <div className="container">
-          <div className="xl:w-[470px] mx-auto">
+          <div className=" mx-auto">
             <h2 className="heading text-center">
               Nuestros servicios de reclutamiento
             </h2>
@@ -275,6 +277,22 @@ const Home = () => {
               <FaqsList />
             </div>
           </div>
+        </div>
+       </section>
+
+       <section>
+        <div className="container">
+        <div className=" mx-auto">
+            <h2 className="heading text-center">
+              Lo que dicen de nosotros
+            </h2>
+            <p className="text__para text-center">
+              Desarrollamos un proceso de contratación flexible y personalizado,
+              enfocado en la calidad.
+            </p>
+          </div>
+
+        <Testimonial />
         </div>
        </section>
     </>
